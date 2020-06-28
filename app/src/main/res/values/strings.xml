@@ -1,0 +1,8 @@
+<resources>
+    <!--app-->
+    <string name="app_name">NW Count</string>
+    <string name="app_version">v0.0.1</string>
+    <!--button-->
+    <string name="btn_man">형제</string>
+    <string name="btn_woman">자매</string>
+</resources>
