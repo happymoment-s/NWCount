@@ -1,8 +1,7 @@
-package com.hallelujah.newwave.worship.count.listener;
+package com.hallelujah.newwave.worship.count.component;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;

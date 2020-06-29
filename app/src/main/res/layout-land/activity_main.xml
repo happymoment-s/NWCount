@@ -6,7 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".activity.MainActivity">
 
+    <Spinner
+        android:id="@+id/sp_sector"
+        android:layout_width="130dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/cl_count_button"
+        app:layout_constraintDimensionRatio="3:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_count_button"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
